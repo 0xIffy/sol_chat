@@ -1,0 +1,12 @@
+[programs.devnet]
+sol_chat = "BomZ26vr1ZF27ZfdR5JW6BfC8CiHnfVmhdPUpoF1gQ8j"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/braeden/.config/solana/devnet.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
